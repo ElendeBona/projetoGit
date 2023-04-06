@@ -283,3 +283,25 @@ remote:
 To https://github.com/ElendeBona/projetoGit.git
  * [new branch]      novos-arquivos-git -> novos-arquivos-git
  
+
+ ------------------------------------------
+
+ PARA ENVIO DE ATUALIZAÇÕES AO REPPOSITÓRIO GITHUB 
+ 
+ ABRIR O GIT BASH 
+
+
+COMANDOS EM ORDEM NO GIT:
+GIT INIT 
+GIT STATUS (VERMELHO)
+GIT PULL ORIGIN ...(novabranch)... - VERIFICAR SE HÁ ALGUMA ATUALIZAÇÃO DE OUTRO MEMBRO DA EQUIPE NESTE REPOSITÓRIO - GIT PULL ORIGIN NOVOS-ARQUIVOS-GIT
+OR GIT PULL ORIGIN MAIN (SE FOR NA PASTA PRINCIPAL)
+GIT ADD . - PARA ADD TODAS AS MUDANÇAS FEITAS 
+GIT STATUS (VERDE)
+GIT COMMIT -M "(mensagem/arquivos/etiqueta)" - GIT COMMIT -M "PASSO A PASSO  E NOVOS ARQUIVOS E NOVO README" - REALIZOU O PACOTE E EMBRULHOU AGORA FALTA DE FATO MANDAR AO GITHUB
+GIT PUSH ORIGIN NOVOS-ARQUIVOS-GIT - ENVIADO
+
+NO GITHUB VOCE PRECISARÁ NOVAMENTE FAZER UM MERGE 
+
+>>para aprender mais estes eu tive que assistir ao vídeo Prof Bruno Gomes GIT e GITHUB 04 - Enviando Atualizações ao Repositório
+https://www.youtube.com/watch?v=EbAyAUOmUBM 
